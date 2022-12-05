@@ -7,6 +7,8 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + "/public/main.html")
 })
 
+app.use(express.static('public'))
+
 app.listen(port, () => {
   console.log(`start!! express server on port ${port}`)
 })
