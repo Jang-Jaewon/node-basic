@@ -1,0 +1,22 @@
+{
+  "name": "my-posts",
+  "version": "1.0.0",
+  "description": "express test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-home:Jang-Jaewon/node-basic.git"
+  },
+  "author": "Jang-Jaewon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
